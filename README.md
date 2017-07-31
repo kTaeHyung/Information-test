@@ -27,10 +27,20 @@
     - git 원격 저장소 변경 (git remote set-url origin <원격 서버 주소>)
 6. git push -u origin master
     - 이코드를 작성하기 전에 현재의 변경 내용은 아직 로컬 저장소의 HEAD 안에 머물고 있다. 이 변경 내용을 원격 서버로 올리기 위해서는 이 코드를 작성한다.
-   
+  
+--- 
+그 외에 것들,, 
 - git clone <원격 서버 주소> 
     - 현재 디렉토리에 원격 서버에 있는 프로젝트를 가져온다(복제한다).
     - ex) C:\Users\김태형\dev\workspace\intellij>git clone https://github.com/kTaeHyung/Test2.git
-    
-
----
+- git log
+    - 현재 커밋된 내용들의 log를 볼 수 있다.
+- git branch -a
+    - Branch들을 모두 보여준다.
+- git status
+    - 말 그대로 git의 현재 상태를 보는 명령어다.
+    - 무엇이 변하였고, Commit 이 준비 중인지 등 확인할 수 있다.
+- git pull
+    - git pull을 하게 되면 원격저장소에서 commit한 내용을 로컬 저장소로 반영해 준다.
+- git config --list
+    - 설정 정보 리스트
