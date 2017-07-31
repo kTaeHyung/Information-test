@@ -29,6 +29,8 @@
     - 이코드를 작성하기 전에 현재의 변경 내용은 아직 로컬 저장소의 HEAD 안에 머물고 있다. 이 변경 내용을 원격 서버로 올리기 위해서는 이 코드를 작성한다.
    
 - git clone <원격 서버 주소> 
-    - ㄱ        
+    - 현재 디렉토리에 원격 서버에 있는 프로젝트를 가져온다(복제한다).
+    - ex) C:\Users\김태형\dev\workspace\intellij>git clone https://github.com/kTaeHyung/Test2.git
+    
 
 ---
